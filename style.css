@@ -1,12 +1,12 @@
-/* General */
-
 /* * {outline: 1px solid red;} */
+
+/* General */
 
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
-    padding-left: 5px;
-    font-size: 16px;
+    padding: 0;
+    font-size: 17px;
 }
 
 /* Header: top */
@@ -25,12 +25,17 @@ ul {
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 700;
 }
 
 .header .links {
-    list-style-type: none;
     display: flex;
     gap: 15px;
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
 }
 
 .header .logo-links {
@@ -46,21 +51,25 @@ ul {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    margin-bottom: 0;
+    margin-right: 300px;
 }
 
 .header .sub-text {
-    margin-top: 0;
+    margin: 15px 50px 15px 0;
 }
 
-.header .bottom-container {
+.header .container {
     display: flex;
-    
+    max-width: fit-content;
+    overflow: auto;
 }
 
-.header .text-button {
-    flex-wrap: wrap;
-}
+
+
+
+
+
+
 
 
 
