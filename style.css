@@ -35,7 +35,6 @@ ul {
     color: #E5E7EB;
     list-style-type: none;
     flex: 0 0 auto;
-    flex-wrap: wrap;
 }
 
 .header .logo-links {
