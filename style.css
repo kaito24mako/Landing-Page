@@ -6,7 +6,9 @@ body {
     font-family: "Roboto", sans-serif;
     margin-top: -20px;
     margin-left: 0px;
+    margin-right: 0px;
     padding-left: 5px;
+    font-size: 16px;
 }
 
 /* Header */
@@ -14,7 +16,25 @@ body {
 .header {
     background-color: #1F2937;
     color: white;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
+.logo {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.links {
+    list-style-type: none;
+    padding-top: 26px;
+    display: flex;
+    gap: 15px;
+}
+
+.logo-links {
+    display: flex;
+    justify-content: space-between;
+}
 
 
