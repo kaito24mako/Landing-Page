@@ -9,7 +9,7 @@ body {
     font-size: 17px;
 }
 
-/* Header: top */
+/* Header: top section */
 
 .header {
     background-color: #1F2937;
@@ -45,24 +45,24 @@ body {
 }
 
 .header .links button {
-  /* Remove default button appearance */
-  background-color: transparent; 
-  border: none; 
-  padding: 0; 
-  margin: 0; 
-  /* Inherit text styles from parent */
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  font-style: inherit;
-  line-height: inherit;
-  color: inherit; 
-  /* Ensure it behaves like inline text */
-  display: inline;
-  cursor: pointer; /* Keep the pointer cursor to indicate interactivity */
+    cursor: pointer;
+    /* Remove default button appearance */
+    background-color: transparent; 
+    border: none; 
+    padding: 0; 
+    margin: 0; 
+    /* Inherit text styles from parent */
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    color: inherit; 
+    /* Ensure it behaves like inline text */
+    display: inline;
 }
 
-/* Header: bottom */ 
+/* Header: bottom section */ 
 
 .header .main-text {
     font-size: 48px;
@@ -95,7 +95,7 @@ body {
     margin: 0 auto;
 }
 
-/* Body */
+/* Body section */
 
 .body {
     padding: 0 20px 100px 20px;
@@ -139,8 +139,87 @@ body {
     align-items: center;
 }
 
+/* Quote section */ 
 
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 20px 100px 20px;
+}
 
+.quote .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.quote .main-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote .sub-text {
+    font-weight: 700;
+}
+
+/* Action section */
+
+.action {
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 0 auto;
+    /* setting a width of 1240px disrupts wrapping, so make the width 100% of the max-width */
+    max-width: 1240px;
+    width: 100%;
+}
+
+.action .container {
+    margin: 100px 20px 100px 20px;
+    color: #F9F8FA;
+    padding: 3em 7em;
+    display: flex;
+    justify-content: space-between;
+    /* wraps button */
+    flex-wrap: wrap; 
+    overflow: hidden;
+}
+
+.action .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action .main-text {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.action .button {
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    padding: 0.5em 2em 0.5em 2em;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+    margin: 0.5em 0 0.5em 0;
+}
+
+/* Footer section */
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
 
 
 
