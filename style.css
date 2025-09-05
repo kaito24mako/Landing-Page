@@ -74,6 +74,36 @@ ul {
     border-radius: 10px;
 }
 
+/* Body: header */
+
+.body {
+    padding-top: 40px;
+}
+
+.body .question {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 40px;;
+    display: flex;
+    justify-content: center;
+}
+
+.body .container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.body .container .first,.second,.third,.forth {
+    text-align: center;
+}
+
+.body .container .text {
+    max-width: 250px;
+}
+
+
 
 
 
