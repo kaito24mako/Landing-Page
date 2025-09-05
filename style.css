@@ -44,6 +44,24 @@ body {
     margin: 0 auto;
 }
 
+.header .links button {
+  /* Remove default button appearance */
+  background-color: transparent; 
+  border: none; 
+  padding: 0; 
+  margin: 0; 
+  /* Inherit text styles from parent */
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  color: inherit; 
+  /* Ensure it behaves like inline text */
+  display: inline;
+  cursor: pointer; /* Keep the pointer cursor to indicate interactivity */
+}
+
 /* Header: bottom */ 
 
 .header .main-text {
@@ -120,7 +138,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 
 
 
