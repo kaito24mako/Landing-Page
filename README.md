@@ -1,4 +1,4 @@
-# Landing Page
+# Oishii Kaayo: Landing Page
 This landing page is based on a restaurant business that me and my partner want to run together. '
 <br> This is a project given by The Odin Project.
 
