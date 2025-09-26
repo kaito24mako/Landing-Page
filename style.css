@@ -1,5 +1,3 @@
-/* * {outline: 1px solid red;} */
-
 /* General */
 
 body {
@@ -89,9 +87,7 @@ body {
 .header .container {
     display: flex;
     overflow: auto;
-    /* sets width of container to be smaller than 1920px screen */
     max-width: 1300px;
-    /* centers container */
     margin: 0 auto;
 }
 
@@ -99,9 +95,7 @@ body {
 
 .body {
     padding: 0 20px 100px 20px;
-    /* sets width of container to be smaller than 1920px screen */
     max-width: 1200px;
-    /* centers container */
     margin: 0 auto;
 }
 
