@@ -1,7 +1,8 @@
-# odin-landing-page
-This landing page is based on a restaurant business that me and my partner want to run together. 
+# Oishii Kaayo: Landing Page
+This landing page is based on a restaurant business that me and my partner want to run together. '
+<br> This is a project given by The Odin Project.
 
-The skills I learned and utilised to create this project are:
+Live Preview: https://kaito24mako.github.io/odin-landing-page/
 
 Credit to:
 <li>Photo of sushi by Yang Hao from Pexels: https://www.pexels.com/photo/close-up-photo-of-sushi-roll-10692514/</li>
